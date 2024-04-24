@@ -14,6 +14,6 @@ jobs:
       - name: Use Node.js version 16 # Specifies the Node.js version to use
       - uses: actions/setup-node@v2
         with:
-          node-version: 16 # Specifies the Node.js version (16)
+          node-version: "16" # Specifies the Node.js version (16)
       - run: npm install # Installs project dependencies
       - run: npm run build --prefix client # Runs the build script for the client directory
