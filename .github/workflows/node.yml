@@ -15,5 +15,5 @@ jobs:
         with:
           node-version: "16" # Specifies the Node.js version (16)
       - run: npm install # Installs project dependencies
-      - run: npm install react-scripts --prefix-client
+      - run: npm install react-scripts --prefix client
       - run: npm run build --prefix client # Runs the build script for the client directory
