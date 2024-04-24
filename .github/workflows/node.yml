@@ -2,9 +2,9 @@ name: NASA Project CI # Defines the name of the GitHub Actions workflow (project
 
 on: # Specifies when to trigger the workflow
   push: # Triggers the workflow on push events
-    branches: [master] # Specifies that the workflow should run only on the master branch
+    branches: [main] # Specifies that the workflow should run only on the master branch
   pull_request: # Triggers the workflow on pull requests
-    branches: [master] # Specifies that the workflow should run only on the master branch
+    branches: [main] # Specifies that the workflow should run only on the master branch
 
 jobs:
   build: # Defines a job named "build" (or deploy)
