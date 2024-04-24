@@ -22,3 +22,4 @@ jobs:
       - run: npm install # Installs project dependencies
       - run: npm install react-scripts --prefix client
       - run: npm run build --prefix client # Runs the build script for the client directory
+      - run: npm test
